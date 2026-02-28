@@ -1,7 +1,7 @@
 [project]
 name = "02-sskrr"
 version = "0.1.0"
-description = "SSKRR (Spectral Stochastic Krylov Reduced Rank) method implementation"
+description = "SSKRR (Sparse Spectral Kernel Ridge Regression) method implementation"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

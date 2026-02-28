@@ -1,5 +1,5 @@
 """
-Main script for the SSKRR (Spectral Stochastic Krylov Reduced Rank) method.
+Main script for the SSKRR (Sparse Spectral Kernel Ridge Regression) method.
 This script converts the main_SSKRR.ipynb notebook into a modular command-line tool.
 """
 
