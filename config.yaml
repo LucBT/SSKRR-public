@@ -1,0 +1,39 @@
+general:
+  number_of_seeds: 10
+  use_latex: true
+  n_td: 100000
+
+ishigami:
+  enabled: true
+  a: 7.0
+  b: 0.1
+  number_of_observations_ld_list: [100]
+  total_order: 10
+  bounds: [[-3.141592653589793, 3.141592653589793], ...
+  [-3.141592653589793, 3.141592653589793], ...
+  [-3.141592653589793, 3.141592653589793]]
+  spgl1:
+    sigma: 1.0e-6
+    opt_tol: 1.0e-8
+  gpr:
+    ite_max: 2000
+    ite_save: 100
+
+rosenbrock:
+  enabled: true
+  dimension: 10
+  number_of_observations_ld_list: [400]
+  total_order: 4
+  bounds_min: -2.0
+  bounds_max: 2.0
+  spgl1:
+    sigma: 1.0e-6
+    opt_tol: 1.0e-7
+  gpr:
+    ite_max: 10000
+    ite_save: 100
+
+sskrr:
+  nuggets_start: -12.0
+  nuggets_end: 0.0
+  nuggets_num: 31
